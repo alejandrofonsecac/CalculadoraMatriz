@@ -49,10 +49,10 @@ public class Main {
         }
 
         System.out.println("Digite os valores da segunda matriz:");
-        for (int i = 0; i < linhas; i++) {
-            for (int j = 0; j < colunas; j++) {
+        for (int i = 0; i < linhas2; i++) {
+            for (int j = 0; j < colunas2; j++) {
                 System.out.print("Matriz2[" + i + "][" + j + "]: ");
-                matriz2[i][j] = input.nextInt();
+                matriz2[i][j] = input.nextInt(); //Erro <----
             }
         }
 
